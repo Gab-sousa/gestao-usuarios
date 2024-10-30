@@ -11,7 +11,9 @@
            c-swap="#cliente-{{cliente.id}}" 
         {% else %}
             c-append="#lista_clientes"
-        {% endif %}>
+        {% endif %}
+        
+        c-reload-container="true">
 
 
     <div class="mb-3">
@@ -23,6 +25,8 @@
       <label class="form-label">Email</label>
       <input type="text" class="form-control" name="email" {% if cliente %}value="{{cliente.email}}"{% endif %}>
     </div>
+
+  <br>
 
     <button type="submit" class="btn btn-primary">{% if cliente %}Salvar cliente{% else %}Criar cliente{% endif %}</button>
   </form>
