@@ -21,7 +21,7 @@ para o gerenciamento de dados.
 
 ## Tecnologias Utilizadas
 
-- **Frontend**: HTML, CSS e Bootstrap (opcional)
+- **Frontend**: HTML e Bootstrap
 - **Backend**: Flask (Python)
 - **Banco de Dados**: PostgreSQL, com suporte para outros bancos SQL
 
